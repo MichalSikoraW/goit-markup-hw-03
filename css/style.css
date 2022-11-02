@@ -8,13 +8,22 @@
   --main-silver: #757575;
 }
 
+
 body {
 font-family: 'Roboto', sans-serif;
+font-weight: 1600px; 
 color: var(--main-black);
 box-shadow:  0px 4px 4px 0px rgba(66, 68, 90, 1);
 }
+ 
 ul {
     list-style-type: none;
+    display: flex;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -64,10 +73,15 @@ height: 600px;
 width: 1600px;
 }
 .titelh1 {
+display: flex;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
+text-transform: uppercase;
 color:var(--main-white);
+text-align: center;
+flex-wrap: wrap;
+margin: 0px;
 }
 .titelbutton {
 height: 50px;
@@ -86,19 +100,23 @@ font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 color:var(--black-main);
+display: flex;
+justify-content: center;
 }
 .titelh3 {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color:var(--black-main);
-
 }
+
 .titellor {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--main-silver);
+display: flex;
+flex-direction: column;
 }
 .my {
 font-size: 16px;
@@ -137,6 +155,11 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--main-silver);
+}
+.block{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 .foot {
 background-color: var(--background-grey);
