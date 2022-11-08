@@ -8,7 +8,9 @@
   --main-silver: #757575;
 }
 
-
+.container{
+width: 1200px;
+}
 body {
 font-family: 'Roboto', sans-serif;
 font-weight: 1600px; 
