@@ -201,7 +201,19 @@ color: var(--main-silver);
     flex-wrap: nowrap;
     flex-direction: row;
 }
-
+.block1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px;
+}
+.block2{
+    display: flex;
+    flex-basis: calc((100%-60px)/3);
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .foot {
 background-color: var(--background-grey);
 height: 252px;
