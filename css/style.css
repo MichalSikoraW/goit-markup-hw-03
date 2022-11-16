@@ -8,35 +8,13 @@
   --main-silver: #757575;
 }
 
-.container{
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-    display: contents;
-}
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 1600px; 
-    color: var(--main-black);
-    box-shadow:  0px 4px 4px 0px rgba(66, 68, 90, 1);
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
+font-family: 'Roboto', sans-serif;
+color: var(--main-black);
+box-shadow:  0px 4px 4px 0px rgba(66, 68, 90, 1);
 }
-
 ul {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    gap: 46px;
-}
-
-.head{
-    display: flex;
-    justify-content: space-between;
 }
 
 .logo {
@@ -64,7 +42,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 list-style-type: none;
-
 }
 .logo3 {
 color: var(--main-silver);
@@ -79,31 +56,18 @@ font-weight: 500;
 .logo2:hover,
 .logo3:hover{
     color: var(--main-blue);
-    text-decoration: underline;
 }
 
 .titel {
 background-color: var(--background-grey);
 height: 600px;
 width: 1600px;
-margin: 0 auto;
-width: 100%;
-max-width: 1200px;
-padding: 0 15px;
 }
 .titelh1 {
-display: flex;
-max-width: 696px;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
-text-transform: uppercase;
 color:var(--main-white);
-text-align: center;
-flex-wrap: wrap;
-margin: auto;
-padding-top: 172px;
-padding-bottom: 30px;
 }
 .titelbutton {
 height: 50px;
@@ -116,42 +80,25 @@ letter-spacing: 0.06em;
 background-color:var(--main-blue);
 color: var(--main-white);
 cursor: pointer;
-display: flex;
-justify-content: space-around;
-margin: auto;
 }
-.lorem{
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-
 .titelh2 {
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
 color:var(--black-main);
-display: flex;
-justify-content: center;
 }
 .titelh3 {
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color:var(--black-main);
-}
 
+}
 .titellor {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color:var(--main-silver);
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-display: flex;
-flex-wrap: nowrap;
 }
 .my {
 font-size: 16px;
@@ -159,9 +106,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--black-main);
 font-style:normal;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
 }
 
 .strony {
@@ -194,36 +138,10 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--main-silver);
 }
-.block{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-.block1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 8px;
-}
-.block2{
-    display: flex;
-    flex-basis: calc((100%-60px)/3);
-    flex-wrap: wrap;
-    gap: 30px;
-}
 .foot {
 background-color: var(--background-grey);
 height: 252px;
 width: 1600px;
-margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
 }
 .foot1 {
 list-style-type: none;
