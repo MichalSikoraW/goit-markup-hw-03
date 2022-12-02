@@ -22,12 +22,24 @@ body {
 }
 ul {
   list-style-type: none;
+  display: flex;
+}
+
+}
+section {
+  width: 1200px;
+  margin-left: 215px;
 }
 header {
   display: flex;
   justify-content: space-around;
+  height: 80px;
+}
+nav{
+    display: flex;
 }
 
+)
 .logo {
   color: var(--second-black);
   background-color: var(--main-white);
@@ -73,12 +85,14 @@ header {
   background-color: var(--background-grey);
   height: 600px;
   /* width: 1600px; */
+  justify-content: center;
 }
 h1 {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--main-white);
+  padding: 200,450,280;
 }
 .titlebutton {
   height: 50px;
@@ -98,13 +112,13 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--black-main);
 }
-.titelh3 {
+h3 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--black-main);
 }
-.lor {
+.titlelor {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,7 +164,6 @@ h2 {
 }
 .foot {
   background-color: var(--background-grey);
-  height: 252px;
   width: 1600px;
 }
 .foot1 {
