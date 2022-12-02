@@ -1,186 +1,196 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --black-main: #212121;
   --second-black: #000000;
-  --main-blue: #2196F3;
-  --background-grey: #2F303A;
-  --main-white: #FFFFFF;
-  --second-white: #F5F4FA;
+  --main-blue: #2196f3;
+  --background-grey: #2f303a;
+  --main-white: #ffffff;
+  --second-white: #f5f4fa;
   --main-silver: #757575;
 }
 
 body {
-font-family: 'Roboto', sans-serif;
-color: var(--main-black);
-box-shadow:  0px 4px 4px 0px rgba(66, 68, 90, 1);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-black);
+  box-shadow: 0px 4px 4px 0px rgba(66, 68, 90, 1);
+  width: 1600px;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+header {
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo {
-color: var(--second-black);
-background-color:var(--main-white);
-text-decoration: none;
-font-family: Raleway;
-font-size: 26px;
-line-height: 1.29;
-cursor: pointer;
+  color: var(--second-black);
+  background-color: var(--main-white);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.29;
+  cursor: pointer;
 }
 .logo1 {
-color: #2196F3;
-font-family: Raleway;
-font-size: 26px;
-line-height: 1.29;
-letter-spacing: 0.03em;
-cursor: pointer;
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.29;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .logo2 {
-color: var(--black-main);
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
-list-style-type: none;
+  color: var(--black-main);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
 }
 .logo3 {
-color: var(--main-silver);
-text-decoration: none;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-font-weight: 500;
+  color: var(--main-silver);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .logo:hover,
 .logo1:hover,
 .logo2:hover,
-.logo3:hover{
-    color: var(--main-blue);
+.logo3:hover {
+  color: var(--main-blue);
 }
 
-.titel {
-background-color: var(--background-grey);
-height: 600px;
-width: 1600px;
+.title {
+  background-color: var(--background-grey);
+  height: 600px;
+  /* width: 1600px; */
 }
-.titelh1 {
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-color:var(--main-white);
+h1 {
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-white);
 }
-.titelbutton {
-height: 50px;
-width: 200px;
-font-family: inherit;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-background-color:var(--main-blue);
-color: var(--main-white);
-cursor: pointer;
+.titlebutton {
+  height: 50px;
+  /* width: 200px; */
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  cursor: pointer;
 }
-.titelh2 {
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color:var(--black-main);
+h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black-main);
 }
 .titelh3 {
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-color:var(--black-main);
-
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--black-main);
 }
-.titellor {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:var(--main-silver);
+.lor {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-silver);
 }
 .my {
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color:var(--black-main);
-font-style:normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black-main);
+  font-style: normal;
 }
 
 .strony {
-font-size: 16px;
-line-height: 1.63;
-letter-spacing: 0.03em;
-font-family: inherit;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  font-family: inherit;
 }
 .strony:hover {
-color: var(--main-white);
-background-color: var(--main-blue);
-cursor: pointer;
+  color: var(--main-white);
+  background-color: var(--main-blue);
+  cursor: pointer;
 }
 .zdjecie {
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color:var(--black-main);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-main);
 }
 .zdjecianazwa {
-    line-height: 2;
-font-weight: bold;
-font-size: 18px;
-letter-spacing: 0.06em;
-font-size: 18px
+  line-height: 2;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  font-size: 18px;
 }
-.zdjeciastrona{
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--main-silver);
+.zdjeciastrona {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-silver);
 }
 .foot {
-background-color: var(--background-grey);
-height: 252px;
-width: 1600px;
+  background-color: var(--background-grey);
+  height: 252px;
+  width: 1600px;
 }
 .foot1 {
-list-style-type: none;
-font-family: Raleway;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-cursor: pointer;
-text-decoration: none; 
+  list-style-type: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
 }
 .foot2 {
-font-family: Raleway;
-font-size: 26px;
-line-height: 1.38;
-letter-spacing: 0.03em;
-color:#2196F3;
-text-decoration: none;
-list-style-type: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+  list-style-type: none;
 }
 .foot3 {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
 }
 .foot4 {
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF99;
-text-decoration: none;
-font-style: normal;
-font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
 }
 .foot:hover,
 .foot1:hover,
 .foot2:hover,
 .foot4:hover {
-    color:var(--main-blue) ;
+  color: var(--main-blue);
 }
