@@ -13,7 +13,9 @@
   --second-white: #f5f4fa;
   --main-silver: #757575;
 }
-
+.container{
+    width: 1200px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-black);
@@ -81,8 +83,8 @@ nav{
   letter-spacing: 0.02em;
   font-weight: 500;
 }
-.logo:hover,
-.logo1:hover,
+/* .logo:hover, */
+/* .logo1:hover, */
 .logo2:hover,
 .logo3:hover {
   color: var(--main-blue);
